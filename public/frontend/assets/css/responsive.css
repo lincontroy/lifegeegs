@@ -1,0 +1,194 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 7000px) {
+    .hc-nav-original.hc-nav-1 {
+        display: block !important;
+    }
+    .mobile-menu {
+        display: none;
+    }
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .hc-nav-original.hc-nav-1 {
+        display: block !important;
+    }
+    .mobile-menu {
+        display: none;
+    }
+
+
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-btn {
+        display: none;
+    }
+
+    .mobile-menu a {
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 2px 8px;
+        border-radius: 5px;
+        font-size: 24px;
+    }
+
+    .slider-right img {
+        display: none;
+    }
+
+    .single-service {
+        margin-bottom: 30px;
+    }
+
+    .single-pricing {
+        margin-bottom: 30px;
+    }
+
+    .single-news {
+        margin-bottom: 30px;
+    }
+
+    .footer-left-area {
+        margin-bottom: 60px;
+    }
+
+    .footer-menu {
+        margin-bottom: 40px;
+    }
+}
+
+
+/* small mobile :320px. */
+@media (min-width: 499px) and (max-width: 767px) {
+    .header-btn {
+        display: none;
+    }
+
+    .hc-nav-trigger {
+        right: 5%;
+    }
+
+    .slider-content h2 {
+        font-size: 55px;
+    }
+
+    .mobile-menu a {
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 2px 8px;
+        border-radius: 5px;
+        font-size: 24px;
+    }
+
+    .slider-right img {
+        display: none;
+    }
+
+    .single-service {
+        margin-bottom: 30px;
+    }
+
+    .single-pricing {
+        margin-bottom: 30px;
+    }
+
+    .single-news {
+        margin-bottom: 30px;
+    }
+
+    .footer-left-area {
+        margin-bottom: 60px;
+    }
+
+    .footer-menu {
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width: 250px) and (max-width: 500px) {
+    .header-btn {
+        display: none;
+    }
+
+    .hc-nav-trigger {
+        right: 5%;
+    }
+
+    .slider-content h2 {
+        font-size: 32px;
+    }
+
+    .slider-content p {
+        font-size: 15px;
+    }
+
+    .mobile-menu a {
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 2px 8px;
+        border-radius: 5px;
+        font-size: 24px;
+    }
+
+    .slider-right img {
+        display: none;
+    }
+
+    .single-service {
+        margin-bottom: 30px;
+    }
+
+    .single-pricing {
+        margin-bottom: 30px;
+    }
+
+    .single-news {
+        margin-bottom: 30px;
+    }
+
+    .footer-left-area {
+        margin-bottom: 60px;
+    }
+
+    .footer-menu {
+        margin-bottom: 40px;
+    }
+
+    .slider-btn a:first-child {
+        margin-right: 10px;
+    }
+
+    .slider-btn a {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+
+    .pricing-header-area p {
+        font-size: 16px;
+    }
+
+    .about-title h3 {
+        font-size: 29px;
+    }
+
+    .about-des p {
+        font-size: 16px;
+    }
+
+    .about-menu ul li {
+        font-size: 15px;
+    }
+
+    .customer-experience-content p {
+        font-size: 17px;
+    }
+
+    .customer-experience-content h3 {
+        font-size: 30px;
+    }
+}
+

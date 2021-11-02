@@ -1,0 +1,997 @@
+/*
+  Theme Name: lenden - Payment Gateway
+  Author: amcoders360@gmail.com
+  Version: 1.0
+*/
+
+
+/* CSS Index
+-----------------------------------
+1. Theme default css
+2. header
+3. slider
+4. service
+5. about
+6. customer experience
+7. pricing
+8. news
+9. blog
+10. contact
+11. footer
+*/
+
+
+/* 1. Theme default css */
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* 2. header */
+
+.header-section-area {
+    background: linear-gradient(357deg, rgb(251 39 107) 0%, rgba(255, 104, 108, 1) 100%);
+}
+
+.header-area {
+    padding: 40px 0;
+}
+
+.header-menu ul {
+    padding: 0;
+    margin: 0;
+}
+
+.header-menu ul li {
+    display: inline-block;
+    margin-right: 35px;
+    position: relative;
+}
+
+.header-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    transition: .4s;
+}
+
+.header-btn a {
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    border: 2px solid #fff;
+    background: transparent;
+}
+
+.header-menu ul li ul.submenu {
+    position: absolute;
+    background: #fff;
+    color: #222;
+    width: 220px;
+    top: 200%;
+    transition: .3s;
+    padding-top: 30px;
+    opacity: 0;
+    visibility: hidden;
+    box-shadow: 7px 5px 20px rgba(0, 41, 117, 0.12);
+    z-index: 99999;
+    padding-bottom: 30px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 5px;
+}
+
+.header-menu ul li:hover a {
+    color: #000 !important;
+}
+
+.header-menu ul li:hover>ul.submenu {
+    opacity: 1;
+    visibility: visible;
+    top: 150%;
+}
+
+.header-menu ul li ul.submenu li ul.submenu {
+    left: 100%;
+    top: 0;
+}
+
+.header-menu ul li ul.submenu li {
+    margin: 0;
+    display: block;
+    margin-bottom: 14px;
+}
+
+.header-menu ul li ul.submenu li:hover>a {
+    color: #fc326c;
+}
+
+.header-menu ul li ul.submenu>.header-menu ul li a i {
+    display: block;
+}
+
+.header-menu ul li:hover>a {
+    color: #fc326c;
+}
+
+.header-menu ul li ul.submenu li:last-child {
+    margin-bottom: 0px;
+}
+
+.header-menu ul li ul.submenu li a {
+    color: #263045;
+    padding: 0;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+/* 3. slider */
+
+.slider-area {
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.slider-content h2 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.slider-content p {
+    color: #ececec;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.slider-btn a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.slider-btn a {
+    background: #fff;
+    padding: 14px 40px;
+    border-radius: 32px;
+    font-size: 17px;
+    line-height: 4;
+    border: 2px solid transparent;
+    color: #fc326c;
+    font-weight: 600;
+}
+
+.slider-btn a:first-child {
+    margin-right: 15px;
+}
+
+.slider-btn a:last-child {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+
+/* 4. service */
+
+.features-header-section h4 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #fc2b6b;
+}
+
+.features-header-section p {
+    color: #666;
+    font-size: 19px;
+}
+
+.features-header-section {
+    margin-bottom: 30px;
+}
+
+.single-service {
+    padding: 60px 30px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.service-img img {
+    background: #cbe7ff;
+    padding: 25px 25px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.service-title h4 {
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.service-des p {
+    color: #666;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.service-btn a {
+    background: linear-gradient(357deg, rgb(251 39 107) 0%, rgba(255, 104, 108, 1) 100%);
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    line-height: 4;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.service-img img.pricing {
+    background: rgba(241, 24, 16, .2);
+}
+
+.service-img img.cashout {
+    background: rgba(12, 231, 187, .2);
+}
+
+.features-area {
+    background: aliceblue;
+}
+
+
+/* 5. about */
+
+.about-title h3 {
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(251 42 107);
+    margin-bottom: 20px;
+}
+
+.about-des p {
+    color: #666;
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.about-menu ul li {
+    list-style: none;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.about-menu ul li svg {
+    color: #fc316c;
+    background: #fc2f6b38;
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 20px;
+    font-size: 22px;
+}
+
+.about-link {
+    margin-top: 25px;
+}
+
+.about-link a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    background: linear-gradient(357deg, rgb(251 39 107) 0%, rgba(255, 104, 108, 1) 100%);
+    padding: 15px 25px;
+    line-height: 4;
+    border-radius: 5px;
+}
+
+.about-link a svg {
+    font-size: 20px;
+    margin-right: 5px;
+    margin-top: -3px;
+}
+
+
+/* 6. customer experience */
+
+.customer-experience-content {
+    margin-bottom: 60px;
+}
+
+.customer-experience-content:last-child {
+    margin-bottom: 0;
+}
+
+.customer-experience-content h3 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #fb2a6b;
+    margin-bottom: 10px;
+}
+
+.customer-experience-content p {
+    color: #888787;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.form-control.screenshot {
+    border: 1px solid #ddd !important;
+    padding: 6px 12px !important;
+    height: -webkit-max-content !important;
+}
+
+strong.screenshot-alert {
+    color: #ff2e61 !important;
+    font-weight: 400;
+}
+
+
+/* 7. pricing */
+
+.pricing-area {
+    background: aliceblue;
+}
+
+.pricing-header-area h2 {
+    color: #fd296b;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.pricing-header-area p {
+    font-size: 19px;
+    line-height: 1.7;
+    color: #666;
+}
+
+.single-pricing {
+    background: #fff;
+    border-radius: 20px;
+    padding: 30px 30px;
+}
+
+.pricing-type h6 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 15px;
+}
+
+.pricing-price {
+    color: #222;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.pricing-price sub {
+    font-size: 15px !important;
+    color: #666;
+    font-weight: 500;
+}
+
+.pricing-list ul li {
+    list-style: none;
+    margin-bottom: 15px;
+    color: #666;
+    font-size: 15px;
+}
+
+.pricing-list ul li svg {
+    background: #fb296b59;
+    color: #fb2a6b;
+    padding: 3px;
+    font-size: 20px;
+    border-radius: 50px;
+    margin-right: 5px;
+}
+
+.pricing-btn {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    background: linear-gradient(357deg, rgb(251 39 107) 0%, rgba(255, 104, 108, 1) 100%);
+    border-radius: 30px;
+}
+
+.pricing-btn a {
+    color: #fff;
+    width: 100% !important;
+    border-radius: 30px;
+    line-height: 2.7;
+    display: inline-block;
+    text-decoration: none;
+    padding: 3px 0;
+}
+
+.single-pricing.active {
+    background: linear-gradient(357deg, rgb(251 39 107) 0%, rgba(255, 104, 108, 1) 100%);
+}
+
+.single-pricing.active .pricing-type h6 {
+    color: #fff;
+}
+
+.single-pricing.active .pricing-price {
+    color: #fff;
+}
+
+.single-pricing.active .pricing-price sub {
+    color: #fff3f3;
+}
+
+.single-pricing.active .pricing-list ul li {
+    color: #fff;
+}
+
+.single-pricing.active .pricing-btn {
+    background: #0a2cca;
+}
+
+.single-pricing.active .pricing-btn a {
+    color: #fb296b;
+    background: #fff;
+    font-weight: 600;
+}
+
+.pricing-list ul {
+    padding: 0;
+}
+
+.pricing-list ul {
+    padding: 0;
+}
+
+.single-pricing.active .pricing-list ul li svg {
+    background: aliceblue;
+}
+
+
+/* 8. news */
+
+.single-news {
+    border-radius: 10px;
+    box-shadow: 0 0 20px #ece9e9;
+}
+
+.news-img img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.news-content {
+    padding: 25px 20px;
+}
+
+.news-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.news-meta span {
+    color: #666;
+    font-size: 15px;
+}
+
+.news-meta span svg {
+    margin-top: -3px;
+}
+
+.news-meta span a {
+    color: #666;
+    text-decoration: none;
+}
+
+.news-title h3 {
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.news-short-des p {
+    color: #666;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.news-btn a {
+    background: linear-gradient(357deg, rgb(251 39 107) 0%, rgba(255, 104, 108, 1) 100%);
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 35px;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 3;
+}
+
+.dashboard-area {
+    background: aliceblue;
+}
+
+.header-section h4 {
+    color: #333;
+    font-size: 33px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.login-section h6 {
+    color: #666;
+    font-size: 17px;
+}
+
+.login-section .form-group {
+    margin-bottom: 25px !important;
+}
+
+.login-section .form-control {
+    height: 60px;
+    padding: 0 20px;
+    border: none;
+}
+
+.login-section .form-control::placeholder {
+    font-size: 15px;
+    color: #bfbdbd;
+}
+
+.login-btn button {
+    background: #ff4966;
+    border: none;
+    width: 100%;
+    height: 60px;
+    font-size: 21px;
+}
+
+.login-section .form-control:focus {
+    box-shadow: none;
+    outline: 0;
+    border: none;
+}
+
+.login-btn button:hover {
+    background: #ff2e61;
+}
+
+.forgoten-pass a {
+    color: #666;
+    font-size: 17px;
+}
+
+.checkout-main-area {
+    background: #fff;
+    padding: 30px 30px;
+    border-radius: 5px;
+}
+
+.payment_method img {
+    height: 80px;
+    width: 80px;
+    object-fit: contain;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #eef8ff;
+}
+
+.payment-gateway-section {
+    margin-top: 30px;
+}
+
+.table-checkout tr td {
+    padding: 17px 0;
+    border-color: #eef8ff;
+    color: #666;
+}
+
+.table-checkout tr td strong {
+    color: #757373;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
+.table-checkout tr {
+    vertical-align: middle;
+}
+
+input.form-control.checkout_control {
+    border: 1px solid #ddd;
+}
+
+input.form-control.checkout_control:focus {
+    border: 1px solid #ddd;
+}
+
+
+/* 9. blog */
+
+.slider-breadcrumb-area ol {
+    margin-bottom: 0;
+}
+
+.slider-breadcrumb-area {
+    color: #fff;
+    padding: 150px 0;
+    padding-top: 120px;
+}
+
+li.breadcrumb-item a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+li.breadcrumb-item {
+    color: #fff;
+    font-size: 20px;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #fff;
+}
+
+.breadcrumb-title h4 {
+    font-size: 40px;
+}
+
+.breadcrumb-title {
+    margin-bottom: 13px;
+}
+
+li.breadcrumb-item.active {
+    color: #d4d5d8;
+}
+
+.blog-card {
+    box-shadow: 0 0 20px #ddd;
+    padding: 25px 25px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.blog-card-header h4 {
+    color: #e63762;
+    font-weight: 600;
+}
+
+.blog-card-header {
+    margin-bottom: 15px;
+}
+
+.search-input input {
+    width: 100%;
+    height: 55px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 10px;
+}
+
+.news-title a {
+    color: #333;
+}
+
+.search-input button {
+    border: none;
+    background: linear-gradient(357deg, rgb(251 39 107) 0%, rgba(255, 104, 108, 1) 100%);
+    color: #fff;
+    height: 55px;
+    padding: 0px 25px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.search-input input::placeholder {
+    color: #c7c6c6;
+}
+
+.category-lists a {
+    color: #666;
+    font-size: 18px;
+}
+
+.category-lists li {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    padding-left: 0;
+}
+
+.category-lists li:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.card-blog-img img {
+    height: 80px;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.single-card-blog {
+    margin-bottom: 15px;
+}
+
+.card-blog-name h6 {
+    color: #666;
+    font-size: 19px;
+}
+
+.single-card-blog:last-child {
+    margin-bottom: 0;
+}
+
+.blog-details-img img {
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.blog-details-area .blog-name {
+    margin-bottom: 15px;
+}
+
+
+/* 10. contact */
+
+.header-title-section h3 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #222;
+}
+
+.header-title-section p {
+    color: #666;
+    font-size: 18px;
+}
+
+.header-title-section {
+    margin-bottom: 35px;
+}
+
+.contact-form input {
+    height: 55px;
+    padding: 0 18px;
+}
+
+.contact-form textarea {
+    height: 150px;
+    padding: 10px 14px;
+}
+
+.contact-form .form-control::placeholder {
+    color: #d0d0d0;
+    font-size: 15px;
+}
+
+.contact-form .form-control:focus {
+    outline: 0;
+    box-shadow: none;
+    border-color: #ddd;
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.contact-form button {
+    border: none;
+    background: linear-gradient(357deg, rgb(251 39 107) 0%, rgba(255, 104, 108, 1) 100%);
+    color: #fff;
+    padding: 15px 50px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+
+/* 11. footer */
+
+.footer-area {
+    background: linear-gradient(357deg, rgb(251 39 107) 0%, rgba(255, 104, 108, 1) 100%);
+    padding: 100px 0;
+}
+
+.footer-logo img {
+    margin-bottom: 30px;
+}
+
+.footer-area.footer-demo-5 .agent-social-links ul li a {
+    background: #6be1ad;
+}
+
+.footer-area.footer-demo-5 .footer-newsletter-input button {
+    background: #6be1ad;
+}
+
+.footer-area.footer-demo-4 .agent-social-links ul li a {
+    color: #1c2633;
+    background: #fff;
+}
+
+.footer-area.footer-demo-4 .footer-newsletter-input button {
+    background: #1c2633;
+    color: #fff;
+}
+
+.footer-content p {
+    color: #fff;
+    font-size: 17px;
+    line-height: 32px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(239, 240, 241, 0.1);
+}
+
+.footer-phone-number {
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.footer-phone-icon svg {
+    font-size: 45px;
+    color: #ffa739;
+}
+
+.footer-number p {
+    margin-bottom: 0;
+    color: #fff;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.footer-phone-icon {
+    margin-right: 10px;
+}
+
+.footer-number span {
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+
+.footer-menu-title h4 {
+    color: #fff;
+}
+
+.footer-menu-content ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-menu-content ul li a {
+    color: #eae9e9;
+    text-decoration: none;
+}
+
+.footer-menu-content ul li {
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.agent-social-links ul {
+    margin: 0;
+    padding: 0;
+}
+
+.agent-social-links ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.agent-social-links ul li:last-child {
+    margin-right: 0;
+}
+
+.footer-area.footer-demo-1 .agent-social-links ul li a {
+    background: #fff;
+    color: #274abb;
+}
+
+.agent-social-links ul li a {
+    padding: 12px 15px;
+    border-radius: 30px;
+}
+
+.footer-menu-title {
+    margin-bottom: 30px;
+}
+
+.footer-menu-content ul li:last-child {
+    margin-bottom: 0;
+}
+
+.footer-newsletter-input input {
+    width: 100%;
+    border: none;
+    background: #fff;
+    height: 60px;
+    border-radius: 5px;
+    padding: 0 25px;
+    margin-bottom: 15px;
+}
+
+.footer-newsletter-input button {
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    border: navajowhite;
+    background: #ffa739;
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer-newsletter-input input:focus {
+    outline: 0;
+}
+
+.footer-bottom-area {
+    background: #e63762;
+    color: #fff;
+    padding: 25px 0;
+}
+
+.footer-bottom-content span a {
+    color: #ffa739;
+}
+
+.right-side-section a:hover {
+    text-decoration: none;
+}
+
+.footer-area.footer-demo-1 .agent-social-links ul li a {
+    background: #fff;
+    color: #fc2a6c;
+}
+
+.footer-area.footer-demo-1 .footer-newsletter-input button {
+    background: #e63762;
+    color: #fff;
+}
+
+.footer-bottom-area.footer-demo-1 .footer-bottom-content span a {
+    color: #f5f5f5;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.footer-lang-select {
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgba(239, 240, 241, 0.1);
+    padding-bottom: 20px;
+}
+
+.footer-lang-select select {
+    height: 55px;
+    padding: 0 20px;
+    border: none;
+}
+
+.form-control.comment {
+    border: 1px solid #ddd;
+    height: 135px;
+}
+
+.form-control.comment:focus {
+    border: 1px solid #ddd;
+    padding-top: 20px;
+    padding-block: 20px;
+}

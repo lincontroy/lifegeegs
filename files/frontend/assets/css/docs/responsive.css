@@ -1,0 +1,153 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 7000px) {
+    .hc-nav-original.hc-nav-1 {
+        display: block !important;
+    }
+    .mobile-menu {
+        display: none;
+    }
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .hc-nav-original.hc-nav-1 {
+        display: block !important;
+    }
+    .mobile-menu {
+        display: none;
+    }
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-area .col-lg-3 {
+        width: 25%;
+    }
+
+    .header-area .col-lg-6 {
+        width: 65%;
+    }
+
+    .header-area .col-lg-3.mobile-btn {
+        width: 10%;
+    }
+
+    .header-dashboard-btn {
+        display: none;
+    }
+
+    .header-login-btn {
+        display: none;
+    }
+
+    .mobile-menu {
+        float: right;
+    }
+
+    .mobile-menu a {
+        border: 1px solid #d2cbcb;
+        color: #656161;
+        font-size: 26px;
+        padding: 0 8px;
+        border-radius: 5px;
+        padding-bottom: 6px;
+        margin-top: 10px;
+    }
+}
+
+
+/* small mobile :320px. */
+@media (min-width: 499px) and (max-width: 767px) {
+    .header-area .col-lg-3 {
+        width: 25%;
+    }
+
+    .header-area .col-lg-6 {
+        width: 65%;
+    }
+
+    .header-area .col-lg-3.mobile-btn {
+        width: 10%;
+    }
+
+    .header-dashboard-btn {
+        display: none;
+    }
+
+    .header-login-btn {
+        display: none;
+    }
+
+    .mobile-menu {
+        float: right;
+    }
+
+    .mobile-menu a {
+        border: 1px solid #d2cbcb;
+        color: #656161;
+        font-size: 26px;
+        padding: 0 8px;
+        border-radius: 5px;
+        padding-bottom: 6px;
+        margin-top: 10px;
+    }
+
+    .header-searchbar {
+        display: none;
+    }
+
+    .hc-nav-trigger {
+        right: 5%;
+    }
+}
+
+@media (min-width: 250px) and (max-width: 500px) {
+    .header-area .col-lg-3 {
+        width: 25%;
+    }
+
+    .header-area .col-lg-6 {
+        width: 65%;
+    }
+
+    .header-area .col-lg-3.mobile-btn {
+        width: 10%;
+    }
+
+    .header-dashboard-btn {
+        display: none;
+    }
+
+    .header-login-btn {
+        display: none;
+    }
+
+    .mobile-menu {
+        float: right;
+    }
+
+    .mobile-menu a {
+        border: 1px solid #d2cbcb;
+        color: #656161;
+        font-size: 22px;
+        padding: 0 8px;
+        border-radius: 5px;
+        padding-bottom: 6px;
+        margin-top: 10px;
+    }
+
+    .header-searchbar {
+        display: none;
+    }
+
+    .hc-nav-trigger {
+        right: 5%;
+    }
+}
+
+
+
+
+
